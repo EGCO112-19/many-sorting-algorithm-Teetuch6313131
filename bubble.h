@@ -24,7 +24,7 @@ void bubble(int a[], int N){
   for(i=N-1;i>0;i--){
     sorted=0;
     for(j=0;j<i;j++){
-        if(a[j]>a[j+1]) {// decending
+        if(a[j]>a[j+1]) {
             swap(&a[j],&a[j+1]);
             sorted=1;
         }
